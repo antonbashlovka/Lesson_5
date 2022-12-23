@@ -59,6 +59,6 @@ printArray(array);
 double max = findMaxInArray(array);
 double min = findMinInArray(array);
 
-Console.WriteLine(findMaxInArray(array)); 
-Console.WriteLine(findMinInArray(array)); 
+Console.WriteLine(max); 
+Console.WriteLine(min); 
 Console.WriteLine(Math.Round(max - min, 2)); 
